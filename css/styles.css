@@ -11,12 +11,6 @@ body {
   bottom: 300px;
 }
 
-.copyright {
-  color: #eaf6f6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -27,6 +21,12 @@ body {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 a {
@@ -69,6 +69,32 @@ hr {
 
 p {
   line-height: 2;
+}
+
+.navbar-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+.nav-navigations {
+  list-style: none;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.nav-navigations li {
+  display: inline;
+}
+
+.navbar-container .nav-profile img {
+  border-radius: 100%;
+  width: 4%;
+  position: absolute;
+  left: 50px;
+  top: 10px;
 }
 
 .contact-message {
@@ -116,36 +142,6 @@ p {
   float: right;
   width: 25%;
   margin-right: 30px;
-}
-
-.nav-1 {
-  width: 2%;
-  float: left;
-  padding: 4px;
-}
-
-.nav-2 {
-  display: inline;
-  position: relative;
-  /* float: right; */
-  left: 300px;
-  padding: auto;
-  padding-top: 10px;
-  font-family: "Merriweather", serif;
-  font-weight: 800;
-  color: rgb(0, 0, 0);
-}
-
-.nav-2-1 {
-  width: 10%;
-  height: auto;
-  display: inline-block;
-}
-
-#nav-bar {
-  height: 30px;
-  background-color: rgb(196, 165, 154);
-  color: hsl(0, 0, 0);
 }
 
 .btn {
